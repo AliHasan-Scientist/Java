@@ -12,9 +12,19 @@ public class Main {
         if (change = false) {
             System.out.println("You can login");
 
-        }
-        else{
+        } else {
             System.out.println("You can't Login");
+        }
+        //
+        int age = 193;
+        if (age <= 18) {
+            System.out.println("you can't drive");
+        } else if (age < 50) {
+            System.out.println("you candrive");
+
+        } else {
+            System.out.println("you are not Eliginle for driving");
+
         }
     }
 }
